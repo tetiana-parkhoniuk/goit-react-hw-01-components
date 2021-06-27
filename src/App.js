@@ -1,4 +1,5 @@
 import Profile from './components/Profile';
+// import Statistics from 'components/Statistics';
 import user from './user.json';
 
 export default function App() {
@@ -11,6 +12,8 @@ export default function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
+      {/* <Statistics 
+      /> */}
     </div>
   );
 }
