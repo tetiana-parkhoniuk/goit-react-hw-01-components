@@ -1,0 +1,14 @@
+.tableRow {
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--secondary-text-color);
+}
+
+.tableColumn:not(:last-child) {
+  border-right: 1px solid var(--bg-color);
+}
+
+.tableRow:nth-child(even) {
+  background-color: var(--bg-color);
+}
