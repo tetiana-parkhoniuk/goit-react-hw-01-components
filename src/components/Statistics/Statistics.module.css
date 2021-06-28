@@ -1,0 +1,23 @@
+.statistics {
+  display: block;
+  margin: 20px;
+  width: 300px;
+  height: 100%;
+  border: 1px solid var(--secondary-text-color);
+  border-radius: 5px;
+}
+
+.title {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+}
+
+.statList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, auto));
+  list-style: none;
+}
