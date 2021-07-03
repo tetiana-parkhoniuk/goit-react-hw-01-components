@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-import s from 'components/TransactionItem/TransactionItem.module.css';
+import styles from 'components/TransactionItem/TransactionItem.module.css';
 
 export default function TransactionItem({ type, amount, currency }) {
   return (
-    <tr className={s.tableRow}>
-      <td className={s.tableColumn}>{type}</td>
-      <td className={s.tableColumn}>{amount}</td>
-      <td className={s.tableColumn}>{currency}</td>
+    <tr className={styles.tableRow}>
+      <td className={styles.tableColumn}>{type}</td>
+      <td className={styles.tableColumn}>{amount}</td>
+      <td className={styles.tableColumn}>{currency}</td>
     </tr>
   );
 }
